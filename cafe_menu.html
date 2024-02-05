@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />   <!-- This meta tag sets the character encoding for the HTML document to UTF-8. UTF-8 is a 
+      character encoding that supports a wide range of characters and is commonly used for web documents. It ensures proper 
+      rendering of text, especially when dealing with different languages.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    <!-- This meta tag is commonly used for responsive 
+      web design. It sets the viewport properties, specifying that the width should be equal to the device width 
+      (width=device-width) and the initial zoom level should be set to 1.0 (initial-scale=1.0). 
+      This helps ensure that the webpage is displayed properly on various devices with different screen sizes.-->
+
+    <title>Cafe Menu</title>
+
+    <link href="styles.css" rel="stylesheet"/>     <!-- Referring to CSS file.-->
+
+  </head>
+
+  <body>
+    <div class="menu">         <!-- The <div> element in HTML is a generic container or a division that is used to group together and 
+      structure content within a web page. It stands for "division" and is a block-level element, meaning it typically starts on a 
+      new line and stretches across the full width of its container. -->
+
+      <main>
+        <h1>CAMPER CAFE</h1>
+        <p class="established">Est. 2020</p>
+
+        <hr>      <!-- The <hr> (horizontal rule) element in HTML is used to represent a thematic break or a separation between content. 
+          It typically renders as a horizontal line across the width of its containing element, serving as a visual divider between 
+          different sections of content. -->
+
+        <section>
+          <h2>Coffee</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+
+          <article class="item">     <!-- The <article> element in HTML is a semantic element that is used to represent a 
+            self-contained piece of content that could be distributed and reused independently. It is designed for content 
+            that can be considered as a standalone entity and can be syndicated or shared. -->
+            
+            <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Mocha</p><p class="price">4.50</p>
+          </article>
+        </section>
+        <section>
+          <h2>Desserts</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+          <article class="item">
+            <p class="dessert">Donut</p><p class="price">1.50</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+          </article>
+        </section>
+      </main>
+      <hr class="bottom-line">
+      <footer>
+        <p>
+          <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
+        </p>
+        <p class="address">123 Free Code Camp Drive</p>
+      </footer>
+    </div>
+  </body>
+</html>
